@@ -112,5 +112,4 @@ username_entry.grid(row=1, column=1)
 password_entry.grid(row=2, column=1)
 
 tk.Button(root, text='Submit', command=on_submit).grid(row=3, column=1, sticky=tk.W, pady=4)
-
 root.mainloop()
